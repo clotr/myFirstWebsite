@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+#navBar {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    background-color: #333333;
+    text-align: right;
+    position: fixed;
+    padding: 0 10% 0 10%;
+    box-sizing: border-box;
+    font-family: 'Azeret Mono', monospace;
+    top: 0;
+    width: 100%;
+    
+}
+header#navBar ul{
+    display: inline;
+    margin-left:auto;
+    /*margin: 0;
+    padding: 10px 10%; */
+}
+header#navBar li {
+    display: inline;
+    padding-left: 15px;
+    }
+
+.red {
+    color: #ff0099;
+}
+.content {
+    padding: 0% 10%;
+    font-family: 'Azeret Mono', monospace;
+}
+.logo {
+    display: inline;
+    /*position: absolute;
+    padding-left: 10%; */
+    margin-top: 10px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.text {
+    text-align: justify;
+}
+.separator {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Azeret Mono', monospace;
+
+}
+body {
+    background-image: url(/assets/topography.png);
+    margin: 0px;
+    margin-top: 8%;
+}
+dd {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 0;
+    padding: 8px 0px;
+}

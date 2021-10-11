@@ -51,7 +51,7 @@ header#navBar li {
 
 }
 body {
-    background-image: url(/assets/topography.png);
+    background-image: url(assets/topography.png);
     margin: 0px;
     margin-top: 8%;
 }

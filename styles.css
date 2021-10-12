@@ -18,6 +18,9 @@ dd {
     margin-left: 0;
     padding: 8px 0px;
 }
+dl {
+    padding-bottom: 500px;
+}
 
 #navBar {
     list-style-type: none;

@@ -6,22 +6,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-main {
-    padding: 0% 10%;
-    text-align: justify;
-}
-
-dd {
-    font-weight: bold;
-    font-size: large;
-    margin-left: 0;
-    padding: 1% 0;
-}
-dl {
-    padding-bottom: 120vh;
-}
-
-#navBar {
+header {
     list-style-type: none;
     display: flex;
     text-transform: uppercase;
@@ -34,16 +19,32 @@ dl {
     width: 100%;
 }
 
-header#navBar ul{
+header ul{
     display: inline;
     margin-left:auto;
     margin-block-start: 0.6em;
     margin-block-end: 0.6em;
 }
 
-header#navBar li {
+header li {
     display: inline;
     padding-left: 1vw;
+}
+
+main {
+    padding: 0% 10%;
+    text-align: justify;
+}
+
+dd {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 0;
+    padding: 1% 0;
+}
+
+dl {
+    padding-bottom: 120vh;
 }
 
 .red {
